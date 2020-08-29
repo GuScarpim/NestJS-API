@@ -1,0 +1,31 @@
+Inicia o projeto
+npm run start:dev
+
+1- Cria
+2- Configura
+3- Chama e cria a pasta
+
+Cria uma controller 
+nest g controller nomeController --dry-run
+nest g controller nomeController --no-spec --dry-run
+nest g controller nomeController --no-spec
+
+Criando um servico
+nest generate service nomeServico --dry-run
+nest generate service nomeServico --no-spec --dry-run
+nest generate service nomeServico --no-spec
+
+Instalando Swagger
+npm install @nestjs/swagger swagger-ui-express
+
+Criando um modulo
+nest g module quotes --dry-run
+nest g module quotes
+
+Criando um Middlewere
+nest generate middleware logger --dry-run
+nest generate middleware shared/middlwares/logger --no-spec --dry-run
+nest generate middleware shared/middlwares/logger --no-spec
+
+
+
