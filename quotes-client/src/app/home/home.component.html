@@ -1,0 +1,8 @@
+<div class="home-container" *ngIf="quote | async as quote">
+    <span class="quote">
+        <!-- {{ quote.title }} -->
+    </span>
+    <br />
+    <button mat-raised-button color="primary"
+        [routerLink]="['/quotes']">View All Quotes</button>
+</div>

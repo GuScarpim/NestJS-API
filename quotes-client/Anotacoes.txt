@@ -1,0 +1,23 @@
+Criando um módulo do Material
+ng generate module material --flat
+
+Criando Componente
+ng generate component home --module=app --dry-run
+ng generate component home --module=app 
+
+Criando Modulo
+ng g module quotes --route quotes --module app.module --dry-run
+ng g module quotes --route quotes --module app.module 
+
+Criando Servico
+ng generate service quotes --dry-run
+ng generate service quotes --skipTests --dry-run
+ng generate service quotes --skipTests
+
+Criando Interface
+ng generate interface quotes --dry-run
+ng generate interface quotes/quote
+
+
+Criando componente com rota
+ng generate module edit-quote --route edit --module app 

@@ -1,0 +1,19 @@
+<form #form="ngForm" (submit)="onSave(form)" class="quote-form">
+  <mat-form-field>
+    <textarea name="title" matInput placeholder="Isira um titulo"
+      [(ngModel)]="quote.title" required #title="ngModel"></textarea>
+      <mat-error *ngIf="title.invalid && (title.touched || title.dirty)">
+        Por favor insira um title
+      </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input name="author" matInput placeholder="Insira um autor"
+      [(ngModel)]="quote.author" required/>
+      <mat-error *ngIf="title.invalid && (title.touched || title.dirty)">
+        Por favor insira um author
+      </mat-error>
+  </mat-form-field>
+  <button type="submit" mat-raised-button color="primary">
+    Save
+  </button>
+</form>
