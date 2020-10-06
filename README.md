@@ -1,2 +1,2 @@
 # NestJS-API
-Curso de NestJS da udemy com angular
+Estudando o Framework NestJS com Angular
